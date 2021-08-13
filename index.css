@@ -16,18 +16,20 @@
 }
 body{
     height: 100%;
+    background: var(--background-main);
+
 }
 header{
-    background: var(--background-main);
-    border: solid 1px rgb(0, 89, 255);
+    
+    /* border: solid 1px rgb(0, 89, 255); */
     display: flex;
     align-items:left;
     justify-content:left;
 
 }
 header a{
-    margin-left: 4rem;
-    padding-top: 2rem;
+    margin-left: 1rem;
+    padding-top: 1rem;
     padding-bottom:0.5rem;
     font-weight: bold;
     color: var(--background-lighter);
@@ -39,37 +41,69 @@ header a:hover {
     color:#e0b8b8;
     /* border: solid 1px  */
 }
-header a::after{
-    content: "→";
-    display: flex;
-    justify-content: right;
-    margin-right: 1rem;
-}
 
 .borderIndex{
-    background: var(--background-main);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 2rem;
-    border: solid 1px red
+    /* border: solid 1px red */
 }
 
 .cardMain{
-    background: var(--background-lighter);
-    border:solid 1px purple;
+    background: white;
+    width: 150vh;
+    height: 85vh;
+    /* border:solid 1px purple; */
     padding: 2rem;
-}
-.cardMain .logo{
+    margin: 1rem 0.5rem 0 0;
+
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
 }
-img{
-    max-width: 15rem;
+
+.logo{
+    position: absolute;
+    left: 150vh;
+    top: 15vh; 
+}
+.slogan{
+    position: absolute;
+    right: 50vh;
+    top: 35vh; 
+    /* padding: 3rem; */
+    
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height:3rem;
+    text-align: center;
+
+    color: #EB2222;
+
+}
+.kidsIMG{
+    position: absolute;
+    left: 100vh;
+    top: 60vh;
+}
+
+.informeDois{
+    position: absolute;
+    left: 30vh;
+    top: 546px;
+    font-weight: bold;
+    font-size: 1rem;
+    line-height: 53px;
+
+    color: #000000;
 }
 
 footer{
-    background: var(--background-main);
-    border: solid 1px rgb(255, 0, 106);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top:0.8rem
 }
