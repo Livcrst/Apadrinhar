@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+    --background-main: #E5E5E5;
+    --background-red: #F57777;
+}
+body{
+    height: 100%;
+    background: var(--background-main);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.5rem
+
+}
+header{
+    /* background: var(--background-red); */
+    padding: 1rem;    
+    color: var(--background-main)                              
+}
+.dados{
+
+    /* border: 1px solid red; */
+    display: flex;          
+    justify-content: flex-end;
+    align-items: center;
+
+    width: 150vh;
+    height: 45vh;
+
+    margin: 1rem 6rem;
+
+}
+.dados p{
+    margin-top: 8rem;
+    margin-left: 8rem;
+}
+.logo_inform{
+    position: absolute;
+    left: 8%;
+    top: 3%;
+
+}
+
+.convite {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button{
+    position: absolute;
+    left:80%;
+    top: 100%;
+
+    background: rgb(226, 40, 40);
+    padding:1rem;
+}
+button a{
+    color: var(--background-main);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+button:hover{
+    background: var(--background-red);
+}

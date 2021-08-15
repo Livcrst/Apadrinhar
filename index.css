@@ -27,6 +27,7 @@ header{
     justify-content:left;
 
 }
+
 header a{
     margin-left: 1rem;
     padding-top: 1rem;
@@ -40,6 +41,10 @@ header a:hover {
     cursor: pointer;
     color:#e0b8b8;
     /* border: solid 1px  */
+}
+
+header nav{
+    padding: 0.5rem;
 }
 
 .borderIndex{
@@ -64,8 +69,8 @@ header a:hover {
 
 .logo{
     position: absolute;
-    left: 150vh;
-    top: 15vh; 
+    left: 145vh;
+    top: 12vh; 
 }
 .slogan{
     position: absolute;
