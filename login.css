@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+:root{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+    --background-main: #E5E5E5;
+    --background-red: #F57777;
+    --color-font: #EB2222;
+}
+header{
+    padding: 1rem;
+    margin-left: 3rem;
+}
+body{
+    height: 100%;
+    background: var(--background-red);
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    line-height: 1.5rem
+
+}
+main{
+    border: 1px solid red;
+    background: var(--background-main);
+    display: flex;          
+    justify-content: center;
+    align-items: center;
+
+    width: 150vh;
+    height: 80vh;
+
+    margin: 1rem 6rem;
+
+
+
+}
+
+.logo {
+    position: absolute;
+    left: 8%;
+    top: 15%
+}
+.cadastros{
+    font-size: 1.5rem;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cadastroPadrinho{
+    margin: 2rem;
+}
+.cadastros h2{
+    /* color: var(--color-font); */
+    font-weight: bold;
+    
+}
+
+.cadastros button{
+    background-color: var(--background-red);
+    margin: 1rem;
+    font-size: 1rem;
+    padding: 1rem
+}
+.cadastros button a{
+    color: var(--background-main);
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+
+button:hover{
+    background: rgb(190, 77, 77);
+}
+
+
