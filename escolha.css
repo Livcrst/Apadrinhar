@@ -27,6 +27,7 @@
    
 .titulo{
    color: var(--background-main);
+   font-family: "Poppins", sans-serif;
 
 }
 .presente{
@@ -37,12 +38,14 @@
    display: flex-end;
    justify-content: center;
    align-items: center;
-   margin-top: -2rem;
-   margin-left: 2rem;
+   margin-top: -1rem;
+   margin-left: 1rem;
+   font-size: 3rem;
 }
 
+.tabela{
+   border: solid 2px var(--background-main);
+   border-width: medium;
 
+}
 
-   
-
-  
