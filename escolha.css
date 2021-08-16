@@ -17,13 +17,11 @@
       --background-lighter: #edeaea;
 }
 
-
-
+.logo{ 
    
+   margin: 2rem;
 
-.logo{ margin: 2rem;
-
-   }
+}
    
 .titulo{
    color: var(--background-main);
@@ -33,19 +31,32 @@
 .presente{
    background-image: url(image.svg);
    font-family: "Poppins", sans-serif;
-   border: solid 2px red;
-   height: 140vh;
+   font-size: 3rem;
+   /* border: solid 2px red; */
+   height: 125vh;
    display: flex-end;
    justify-content: center;
    align-items: center;
-   margin-top: -1rem;
-   margin-left: 1rem;
-   font-size: 3rem;
-}
-
-.tabela{
-   border: solid 2px var(--background-main);
-   border-width: medium;
+   margin-top: 5%;
+   margin-left: 2rem;
 
 }
+.escolha {
+   display: flex;
+   justify-content: space-around;
+   margin-top:2rem;
+   margin-right: 25rem;
+   font-weight: bold;
+
+
+.checkList{
+
+   margin-top: -3rem;
+   margin-left: 15rem;
+   line-height: 7rem;
+
+}
+
+
+
 
