@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+  
+}
+:root {
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+
+  --background-main: #f57777;
+  --background-lighter: #edeaea;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    font-weight: bold;
+    color: black;
+}
+body {
+    background: var(--background-main);
+    color: rgb(184, 55, 81);
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid red;
+
+    
+    background: var(--background-lighter);
+    margin-right: 4rem;
+    margin-left: 4rem;
+    height: 70vh;
+}
+
+.contatos{
+    display: flex;
+    margin-top: 10rem;
+    line-height: 2rem;
+}
+.email{
+    margin-right: 2rem;
+}
+.telefones{
+    margin-right: 2rem;
+}
+.labelcontato{
+    display: flex;
+    margin-right: 1rem;
+    font-family: "Poppins", sans-serif;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-weight: bold;
+    color:black
+}
