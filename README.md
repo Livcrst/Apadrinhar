@@ -26,6 +26,6 @@ Você pode visualizar o layout completo do projeto através [desse link](https:/
 
 ## Preview
   - Esta é a tela inicial
-  ![alt text](![image](https://user-images.githubusercontent.com/50409673/129811629-caf30a5e-dce9-4680-b197-18663ccefe52.png)
+  ![](![image](https://user-images.githubusercontent.com/50409673/129811629-caf30a5e-dce9-4680-b197-18663ccefe52.png)
 
 ## 🙏 Agradecimentos: A Minas Programam e a toda comunidade 💜
