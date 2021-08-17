@@ -21,15 +21,15 @@ header{
 }
 body{
     height: 100%;
-    background: var(--background-red);
+    background: var(--background-main);
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
     line-height: 1.5rem
 
 }
 main{
-    border: 1px solid red;
-    background: var(--background-main);
+    /* border: 1px solid red; */
+    background: white;
     display: flex;          
     justify-content: center;
     align-items: center;
