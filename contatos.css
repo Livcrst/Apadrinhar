@@ -24,7 +24,7 @@ header {
     color: black;
 }
 body {
-    background: var(--background-main);
+    background: var(--background-lighter);
     color: var(--color-font);
 }
 
@@ -34,7 +34,7 @@ main{
     border-top: 1px solid red;
 
     
-    background: var(--background-lighter);
+    background: white;
     margin-right: 4rem;
     margin-left: 4rem;
     height: 70vh;
